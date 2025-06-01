@@ -1,17 +1,14 @@
 ﻿using ConsoleApp3;
+using ConsoleApp3.Interface_Example1;
+using IntExtension;
+using System.Text;
 
+public delegate void notification(string data);
 class Program
 {
     public static void Main()
     {
-        //Coordinates coordinates = new Coordinates(1,2);
-        //Console.WriteLine("{0} {1}",coordinates.X,coordinates.Y); //1,2
-
-        //Console.WriteLine(Weekdays.Saturday); // saturday
-        //int i = (int) Weekdays.Saturday; 
-        //Console.WriteLine(Weekdays.Saturday + i); //10
-
-
-
+        newChild parent = new newChild();
     }
 }
+
